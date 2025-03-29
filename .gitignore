@@ -1,0 +1,32 @@
+# === Node / Common ===
+node_modules/
+dist/
+.cache/
+.vite/
+*.log
+npm-debug.log*
+*.tsbuildinfo
+
+# === Environment Files ===
+.env
+.env.local
+
+# === OS / Editor Junk ===
+.DS_Store
+.vscode/
+.idea/
+
+# === Frontend Specific ===
+markdown-editor-client/node_modules/
+markdown-editor-client/dist/
+markdown-editor-client/.vite/
+markdown-editor-client/.cache/
+
+# === markdown-editor-server Specific ===
+markdown-editor-server/node_modules/
+markdown-editor-server/dist/
+markdown-editor-server/.tsbuildinfo
+
+# === Optional: lockfiles (if not using them at root) ===
+markdown-editor-client/package-lock.json
+markdown-editor-server/package-lock.json
