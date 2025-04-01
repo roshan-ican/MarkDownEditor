@@ -9,7 +9,7 @@ import "katex/dist/katex.min.css";
 
 marked.use(markedKatex());
 
-marked.use(markedKatex()); // ✅ Enable math support
+
 
 const WS_URL = config.VITE_WS_BASE_URL;
 
