@@ -1,0 +1,59 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+:root {
+  --bg-dark: #0f0f0f;
+  --neon-blue: #00ffff;
+  --neon-pink: #ff00ff;
+  --text-glow: 0 0 5px var(--neon-blue), 0 0 10px var(--neon-pink);
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background-color: var(--bg-dark);
+  color: white;
+}
+
+h1, h2 {
+  text-align: center;
+  text-shadow: var(--text-glow);
+}
+
+button {
+  background: transparent;
+  border: 2px solid var(--neon-blue);
+  color: var(--neon-blue);
+  font-weight: bold;
+  padding: 0.5em 1.2em;
+  cursor: pointer;
+  border-radius: 8px;
+  text-shadow: var(--text-glow);
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--neon-blue);
+  color: #000;
+  box-shadow: 0 0 10px var(--neon-blue);
+}
+
+.w-md-editor,
+.w-md-editor-toolbar,
+.w-md-editor-content,
+.wmde-markdown {
+  background-color: #1a1a1a !important;
+  color: var(--neon-blue) !important;
+  border: 1px solid #333;
+}
+
+.w-md-editor-text-pre {
+  background-color: #111 !important;
+  color: var(--neon-pink) !important;
+}
+body .w-md-editor-text-pre > code,
+body .w-md-editor-text-input {
+  font-size: 23px !important;
+  line-height: 24px !important;
+}

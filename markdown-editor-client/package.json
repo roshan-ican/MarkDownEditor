@@ -11,6 +11,9 @@
   },
   "dependencies": {
     "@uiw/react-md-editor": "^4.0.5",
+    "katex": "^0.16.21",
+    "marked": "^15.0.7",
+    "marked-katex-extension": "^5.1.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
